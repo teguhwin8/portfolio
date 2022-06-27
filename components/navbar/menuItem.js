@@ -14,8 +14,8 @@ export default function MenuItem(props) {
 				className={
 					"menu-item transition-all duration-75 " +
 					(isHover || router.pathname == props.path
-						? "capitalize font-bold text-gray-900"
-						: "lowercase")
+						? "capitalize text-[#246c6a]"
+						: "capitalize")
 				}
 				onMouseEnter={handleOnMouseEnter}
 				onMouseLeave={handleOnMouseLeave}
