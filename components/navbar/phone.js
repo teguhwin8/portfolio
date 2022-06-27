@@ -2,7 +2,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 
 export default function Phone() {
 	return (
-		<div className="flex items-center">
+		<div className="hidden md:flex items-center">
 			<a
 				href="http://wa.me/+6285868474405"
 				target="_blank"
